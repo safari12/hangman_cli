@@ -1,0 +1,4 @@
+%{
+  "dictionary": {:git, "https://github.com/safari12/dictionary.git", "5df6a0919ddc9652597c6e312087c0d4bfcad725", []},
+  "hangman": {:git, "https://github.com/safari12/hangman.git", "1e69eb5adef4930c4f6e85530e0e3cf81b66d9e9", []},
+}
