@@ -1,6 +1,6 @@
 defmodule HangmanCLI.Player do
 
-  alias HangmanCLI.{State, Summary, Prompter}
+  alias HangmanCLI.{State, Summary, Prompter, Mover}
 
   def play(%State{tally: %{ game_state: :won }}) do
     exit_with_message("You won!!")
@@ -30,7 +30,7 @@ defmodule HangmanCLI.Player do
     game
     |> Summary.display
     |> Prompter.accept_move
-    |> make_move
+    |> Mover.move
     |> play
   end
 
