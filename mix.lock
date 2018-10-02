@@ -1,4 +1,4 @@
 %{
-  "dictionary": {:git, "https://github.com/safari12/dictionary.git", "5df6a0919ddc9652597c6e312087c0d4bfcad725", []},
-  "hangman": {:git, "https://github.com/safari12/hangman.git", "1e69eb5adef4930c4f6e85530e0e3cf81b66d9e9", []},
+  "dictionary": {:git, "https://github.com/safari12/dictionary.git", "25aa93b068b5e0785ac52f6742f0a33a021aa87b", []},
+  "hangman": {:git, "https://github.com/safari12/hangman.git", "4309ffae26c880704f141b65cdd0257f577625e9", []},
 }
